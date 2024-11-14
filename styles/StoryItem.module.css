@@ -1,0 +1,94 @@
+.storyContainer {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.storyTitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.storyDescription {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.episodesContainer {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.episodesContainer>h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.episodeItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f4f8;
+    border-radius: 5px;
+}
+
+.episodeTitle {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.addEpisodeContainer {
+    margin-top: 20px;
+}
+
+.input, .textarea, .numberInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.input:focus, .textarea:focus, .numberInput:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.2);
+}
+
+.addEpisodeButton, .submitButton {
+    background-color: #4a90e2;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addEpisodeButton:hover, .submitButton:hover {
+    background-color: #357abd;
+}
+
+.submitButton {
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .storyContainer {
+        padding: 25px;
+    }
+
+    .submitButton {
+        width: auto;
+    }
+}

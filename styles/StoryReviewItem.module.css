@@ -1,0 +1,80 @@
+.storyReviewItem {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.storyTitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.storyDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.episodeList {
+    margin-top: 20px;
+}
+
+.episodeItem {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.episodeTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.episodeDescription {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.feedbackTextarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #d0d0d0;
+}
+
+.reviewedButton {
+    background-color: #b2fab4;
+    color: #fff;
+    cursor: default;
+}
