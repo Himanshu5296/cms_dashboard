@@ -11,10 +11,10 @@ export default function Home() {
     setSelectedRole(role);
   };
 
-  const handleLogin = () => {
-    if (selectedRole) {
-      login(selectedRole);
-      router.push(selectedRole === "Writer" ? "/writer" : "/reviewer");
+  const handleLogin = (selectRole:any) => {
+    if (selectRole) {
+      login(selectRole);
+      router.push(selectRole === "Writer" ? "/writer" : "/reviewer");
     } else {
       alert("Please select a role to continue.");
     }
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
 
         {/* Login Button */}
-        <button onClick={handleLogin} className="login-button">
+        <button onClick={()=>handleLogin(selectedRole)} className="login-button">
           Login
         </button>
       </div>
